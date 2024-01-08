@@ -1,0 +1,101 @@
+
+.branding-work {
+    color: #000000;
+    // text-align: center;
+    /* font: 400 542px/78% "Thunder-BlackLc", sans-serif; */
+    position: absolute;
+    // width: 2700px;
+    height: 357px;
+    font-family: "thunder";
+    font-size: 25vw;
+    font-family: "thunder";
+    white-space: nowrap;
+    
+}
+
+
+.design-portfolio {
+    color: #000000;
+    font-family: 'ClashGrotesk-Regular';
+  }
+.honey-gardharia {
+      color: #000000; 
+      font-family: 'ClashGrotesk-Regular';
+    
+}
+    
+
+
+
+// keep this
+.typo{
+     margin-top:  32vw;
+    .marquee {
+        margin: 0 auto;
+        white-space: nowrap;
+        /* overflow: hidden; */
+        position: absolute;
+        font-family: "thunder";
+        font-size: 28vw;
+        overflow: hidden;
+        width: -webkit-fill-available;
+    
+      }
+      .marquee {
+        /* other styles */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+      
+      .marquee span {
+        display: inline-block;
+        padding-left: 100%;
+        animation: marquee 30s linear infinite;
+      }
+      
+      .marquee2 span {
+        animation-delay: 15s;
+      }
+      
+      @keyframes marquee {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(-100%, 0);
+        }
+      }
+    
+
+    
+      .branding1{
+        left: 7vw;
+        top: -37vw;
+        position: absolute;
+        font-family: "CustomFont";
+      }
+      .branding2{
+        left: 62vw;
+        top: 22vw;
+        position: absolute;
+     
+        font-family: "CustomFont";
+    
+        /* transform: rotate(4.1671deg) scale(1, 1); */
+        /* width: 15vw; */
+      }
+      .branding3{
+        left: 56vw;
+        top: -22vw;
+        position: absolute;
+        font-family: "CustomFont";
+    
+      }
+      .branding4{
+        left: 7vw;
+        top: 19vw;
+        position: absolute;
+     
+        font-family: "CustomFont";
+      }
+}

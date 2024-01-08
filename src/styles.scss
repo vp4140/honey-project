@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./assets/fonts/clash-grotesk/ClashGrotesk-Medium.woff2') format('woff2'),
+         url('./assets/fonts/clash-grotesk/ClashGrotesk-Medium.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'thunder';
+    src: url('./assets/fonts/thunder/Thunder-BlackLC.woff2') format('woff2'),
+         url('./assets/fonts/thunder/Thunder-BlackLC.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'ClashGrotesk-Regular';
+    src: url('./assets/fonts/clash-grotesk/ClashGrotesk-Regular.woff2') format('woff2'),
+         url('./assets/fonts/clash-grotesk/ClashGrotesk-Regular.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
